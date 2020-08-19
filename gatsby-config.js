@@ -1,13 +1,13 @@
 module.exports = {
-  pathPrefix: "/blog",
+  //pathPrefix: "/blog",
   siteMetadata: {
-    title: `Torsteins masterblogg`,
+    title: `Torsteins blogg`,
     author: {
       name: `Torstein Solberg`,
       summary: `Person som bor og studerer i Trondheim, skriver også litt ekstra kode på fritiden. `,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://blog.solberg.ws`,
     social: {
       twitter: `kylemathews`,
     },
@@ -54,7 +54,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-175789050-1`,
       },
     },
     `gatsby-plugin-feed`,
