@@ -4,12 +4,14 @@ module.exports = {
     title: `Torsteins blogg`,
     author: {
       name: `Torstein Solberg`,
-      summary: `Person som bor og studerer i Trondheim, skriver også litt ekstra kode på fritiden. `,
+      summary: `jeg bor og studerer i Trondheim. Skriver også litt ekstra kode på fritiden. `,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://blog.solberg.ws`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `torsteinsolberg`,
+      github: `torsol`,
+      linkedin: `torstein-solberg-402996140`
     },
   },
   plugins: [

@@ -28,7 +28,8 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            github
+            linkedin
           }
         }
       }
@@ -57,8 +58,20 @@ const Bio = () => {
         }}
       />
       <p>
-        skrevet av <strong>{author.name}.</strong> {author.summary}
+        skrevet av <strong>{author.name}</strong>, {author.summary}
         {` `}
+        Sjekk meg ut på
+        {` `}
+        <a href={`https://github.com/${social.github}`}>
+          github
+        </a>
+        {` `}
+        og
+        {` `} 
+        <a href={`https://linkedin.com/in/${social.linkedin}`}>
+          linkedin
+        </a>
+        .
       </p>
     </div>
   )
