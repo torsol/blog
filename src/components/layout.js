@@ -1,6 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import PropTypes from "prop-types";
+import Nav from "./nav";
+
 import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
@@ -56,6 +59,7 @@ const Layout = ({ location, title, children }) => {
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
+      <Nav />
       <header>{header}</header>
       <main>{children}</main>
       <footer>
