@@ -2,6 +2,7 @@
 title: Post 1 - Semesteret er planlagt
 date: "2020-08-26"
 description: "Slik ser det kommende semesteret ut!"
+tag: "master"
 ---
 
 Som tittelen sier tror jeg at jeg har landet på hvordan dette semesteret skal se ut. Vanligvis består et semester av 30 studiepoeng, men siden jeg byttet hovedretning for et år siden ligger jeg 7.5 studiepoeng bak normert progresjon. Det betyr at jeg må ta igjen disse poengene før jeg tar ut masteren på våren. 
