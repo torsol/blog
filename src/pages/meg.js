@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 const Meg = ({ data, location }) => {
-    const { author, social } = data.site.siteMetadata
+    const { author } = data.site.siteMetadata
 
     return (
         <Layout location={location} title="Torstein Solberg">
@@ -35,7 +35,7 @@ const Meg = ({ data, location }) => {
                     programmering, samt dele/vise fram det jeg holder på med innenfor IT-verdenen og studiet. 
                 </p>
             </div>
-            <h2> sdkljfølasjdfkløj</h2>
+            <h2>Mer info kommer..</h2>
             <Bio />
         </Layout>
     )
@@ -57,10 +57,6 @@ query {
       author {
         name
         summary
-      }
-      social {
-        github
-        linkedin
       }
     }
   }

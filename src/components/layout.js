@@ -5,8 +5,7 @@ import Nav from "./nav";
 
 import { rhythm, scale } from "../utils/typography"
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
+const Layout = ({ title, children }) => {
   let header
   
     header = (
