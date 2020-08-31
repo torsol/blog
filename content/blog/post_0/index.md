@@ -1,7 +1,7 @@
 ---
-title: Post 0 - Hello world!
+title: Post 0 - Hello world
 date: "2020-08-19"
-description: "Første bloggpost, velkommen til det som skal bli min masterblogg"
+description: "Første bloggpost, velkommen til det som skal bli min masterblogg."
 tag: "master"
 ---
 
