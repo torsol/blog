@@ -1,37 +1,23 @@
 ---
-title: Post 2 - Verktøy for stedreferert data
-date: "2020-09-07"
-description: "Det ser ut som at jeg velger python for arbeidet mitt i år."
+title: Post 3 - Hva er egentlig en prosjektoppgave?
+date: "2020-09-14"
+description: "Det er et godt spørsmål som jeg enda ikke har et godt svar på."
 tag: "master"
 ---
 
-## Introduksjon
+## Intro til prosjektoppgave
+Prosjektoppgave er nesten noe alle sivilingeniørutdanninger på NTNU har. Oppgaven kommer som oftest på høsten i 9. semester og utgjør et sted mellom 7.5 og 15 studiepoeng.
 
-Python er et kjempepopulært programmeringsspråk, og brukes innenfor mange domener. Ofte trekkes språket frem fordi syntaxen er lett å lese og lære, det finnes god dokumentasjon og mange kraftige biblioteker som gir stor fleksibilitet. 
+## Innhold
+For å være helt ærlig har jeg foreløpig ikke god nok innsikt til å vite hva en prosjektoppgave skal inneholde. Likevel har jeg fått med meg noe, så jeg skal liste opp et par punkter.
 
-Dette er tilfellet også når det kommer til datanalyse, både det som er stedrefert og det som ikke er stedrefert.
-Min prosjektoppgave kommer til å innebære analyse og operasjoner på AIS-data, så da blir følgende pakker uunværlige. 
+1. **Leveransen i prosjektoppgaven er utelukkende et skriftlig dokument/rapport**. Det skal ikke være noen presentasjon, kode eller annet som leveres i tillegg. Man dømmes utelukkende basert på hva man har skrevet og hvordan man har laget rapporten. 
+2. **Motivasjon for hvorfor man ønsker å gjøre det man gjør**. Man bør ha med en forklaring på hva man prøver å oppnå, samt hvorfor det er nødvendig/ønskelig og hva det kan bidra med hvis man lykkes. Arbeidshypotese og delmål bør inkluderes her, og følges som en rød tråd gjennom oppgaven. 
+3. **Teoretisk innføring i domene og teknologi som brukes**. Forklare hva man har å jobbe med, hvilke verktøy man har tilgjengelig og gi en grundig innføring i hva som gjelder for dette problemet. 
+4. **Rapporten skal inneholde et litteraturstudie**. Det er viktig å sette seg inn i det området man skal jobbe med, hvilke teknologier, begreper og data som er tilgjengelige innenfor domenet og hva andre har gjort før. Det er viktig å finne ut av at det man prøver å oppnå er blitt forsøkt tidligere, resultater av tidligere forskning eller å finne bedre innfallsvinkler enn det man i første omgang har tenkt på. 
+5. **Eventuelle eksperimenter eller forsøk**. Man må skrive opp hvordan man har strukturert eksperimenter eller forsøk og hvilke antagelser man har lagt til grunn. Forklare hvorfor man valgte en spesifikk framgangsmåte kontra noe annet. Kommentere resultater eller mangel på resultater. 
+6. **Konklusjon og videre arbeid**. Forhåpentligvis har man svart på arbeidshypotese og delmål underveis i oppgaven, prosjektoppgaven er ofte et forstudium til en masteroppgave, så i konklusjonen kan man kanskje trekke frem om arbeidet til nå gir grunnlag for å fortsette videre til en master. Videre så burde man foreslå hva som burde jobbes videre med. 
 
-I faget programmering i geomatikk skal jeg også skrive et API som skal utføre romlige operasjoner på geodata, så her kommer også noe av det som listes til å bli brukt. 
-
-## Pakker
-
-1. Pandas og Geopandas
-
-Pandas og Geopandas er begge verktøy for data-analyse og representasjon. Av det jeg har skjønt handler mye om Dataframe-objektet som pakkene introduserer, og operasjonene man kan gjøre på dataen representert der. Geopandas bygger på Pandas og gir utvidet funksjonalitet, slik at DataFrames kan ha geometri-felter og utføre geometriske operasjoner (denne funksjonaliteten er hentet fra Shapely-biblioteket.) 
-
-2. Numpy og matplotlib
-
-Numpy og matplotlib er begge pakker som gir python mer rå kraft til å gjøre matematiske operasjoner og visualisering av dette. Siden python er et skriptespråk er det forholdsvis treigt, men disse pakkene skrevet i C gir den regnekraften som enkelte analyser trenger. 
-
-3. Tensorflow og Keras
-
-Tensorflow og Keras er maskinlæringsbiblioteker med forskjellig abstraksjonsnivå. Disse bibliotekene er også skrevet i C, og gir muligheten til å drive med dyp læring i Python. Uten disse pakkene hadde python rett og slett blitt for treigt. 
-
-## Oppsummering
-Kort oppsummert så finnes det gode, veldokumenterte og tilgjengelige pakker som tilsynelatende gir meg all funksjonalitet jeg trenger for både prosjektoppgave og programmering i geomatikk. Det er få språk som kan tilby "hele pakka" som python og dens biblioteker tilsynelatende gjør.
-
-Det blir spennende å se hvor enig jeg er i denne påstanden når masteroppgaven leveres juni neste år :P
-
-
+## Tidsbruk
+Hvis man regner at et vanlig semester/halvår består av 30 studiepoeng for å regnes som et fulltidsstudium, krever dermed prosjektoppgaven opptil halvparten av arbeidsinnsatsen til en student på høsten. På Geomatikk er prosjektoppgaven på fulle 15 poeng, og det kreves derfor (antar jeg) mer innsats enn på marin (der den bare er verdt 7.5 poeng). På NTNU regner man (veldig generelt) at et fag på 7.5 studiepoeng krever cirka 12 timer med innsats i uken, med en total belastning på 12 * 4 = 48 timer per uke per elev. Det betyr i gjennomsnitt at man skal jobbe med prosjektoppgaven cirka halvparten av denne tiden, nærmere bestemt 24 timer, **4.8 timer(!) per dag**.  
 
