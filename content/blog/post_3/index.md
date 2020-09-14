@@ -1,7 +1,7 @@
 ---
 title: Post 3 - Hva er egentlig en prosjektoppgave?
 date: "2020-09-14"
-description: "Det er et godt spørsmål som jeg enda ikke har et godt svar på."
+description: "Godt spørsmål med få svar, skal oppsummere det jeg vet."
 tag: "master"
 ---
 
@@ -9,7 +9,6 @@ tag: "master"
 Prosjektoppgave er nesten noe alle sivilingeniørutdanninger på NTNU har. Oppgaven kommer som oftest på høsten i 9. semester og utgjør et sted mellom 7.5 og 15 studiepoeng.
 
 ## Innhold
-For å være helt ærlig har jeg foreløpig ikke god nok innsikt til å vite hva en prosjektoppgave skal inneholde. Likevel har jeg fått med meg noe, så jeg skal liste opp et par punkter.
 
 1. **Leveransen i prosjektoppgaven er utelukkende et skriftlig dokument/rapport**. Det skal ikke være noen presentasjon, kode eller annet som leveres i tillegg. Man dømmes utelukkende basert på hva man har skrevet og hvordan man har laget rapporten. 
 2. **Motivasjon for hvorfor man ønsker å gjøre det man gjør**. Man bør ha med en forklaring på hva man prøver å oppnå, samt hvorfor det er nødvendig/ønskelig og hva det kan bidra med hvis man lykkes. Arbeidshypotese og delmål bør inkluderes her, og følges som en rød tråd gjennom oppgaven. 
