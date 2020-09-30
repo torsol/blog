@@ -14,7 +14,9 @@ Tasks er google sin egen løsning for å holde styr på to-do lists og ting man 
 3. Med tillegget "Fullscreen for Google Tasks" får man et grensesnitt som bare fungerer.
 4. Et enkelt grensesnitt for å sette dato for når ting skal være ferdig, det er få tjenester som får dette til. 
 
+I Google tasks har jeg ulike tabs for de ulike fagene mine, i tillegg til andre huskelister og lignende. Hver gang jeg får en ny ide eller jobber videre på noe jeg har skrevet opp i tasks passer jeg på å oppdatere/lage nye tasks. Slik får man en god dokumentasjon på hva man har gjort, hvilke ideer man har hatt/skal prøve ut, og hva man har blitt enige om med veileder. 
 
+Før jeg begynte med huskelister og kalender prøvde jeg å ha kontroll ved å "huske" alt man har planlagt. Det er en dårlig ide når det skjer mye, ofte fører det til at man glemmer ting. Enda viktigere, for min del, var at det føltes ut som at man hadde mer å gjøre enn det man hadde, som var et stressmoment. 
 
 
 
