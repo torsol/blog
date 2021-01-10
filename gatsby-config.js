@@ -1,12 +1,12 @@
 module.exports = {
   //pathPrefix: "/blog",
   siteMetadata: {
-    title: `Torsteins blogg`,
+    title: `The Solberg Blog`,
     author: {
       name: `Torstein Solberg`,
-      summary: `jeg bor og studerer i Trondheim. Skriver også litt ekstra kode på fritiden. `,
+      summary: `I am a student that studies in geo-informatics in Trondheim. I also write some code in my spare time. `,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog showcasing some work of a software engineer specializing in geoinformatics. With some other unrelated stuff. `,
     siteUrl: `https://blog.solberg.ws`,
     social: {
       twitter: `torsteinsolberg`,
@@ -57,19 +57,6 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `UA-175789050-1`,
-      },
-    },
-    `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

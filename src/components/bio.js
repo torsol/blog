@@ -58,15 +58,15 @@ const Bio = () => {
         }}
       />
       <p>
-        skrevet av <strong>{author.name}</strong>, {author.summary}
+        Written by <strong>{author.name}</strong>, {author.summary}
         {` `}
-        Sjekk meg ut på
+        Check me out on 
         {` `}
         <a href={`https://github.com/${social.github}`}>
           github
         </a>
         {` `}
-        og
+        and 
         {` `} 
         <a href={`https://linkedin.com/in/${social.linkedin}`}>
           linkedin

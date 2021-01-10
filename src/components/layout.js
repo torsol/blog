@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Nav from "./nav";
-
 import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ title, children }) => {
@@ -37,14 +35,8 @@ const Layout = ({ title, children }) => {
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
-      <Nav />
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Laget med
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
     </div>
   )
 }
