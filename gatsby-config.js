@@ -4,7 +4,7 @@ module.exports = {
     title: `The Solberg Blog`,
     author: {
       name: `Torstein Solberg`,
-      summary: `I am a student that studies in geo-informatics in Trondheim. I also write some code in my spare time. `,
+      summary: `I am a student that studies geo-informatics in Trondheim. I also write some code in my spare time. `,
     },
     description: `A blog showcasing some work of a software engineer specializing in geoinformatics. With some other unrelated stuff. `,
     siteUrl: `https://blog.solberg.ws`,
@@ -66,8 +66,11 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ],
+    {	
+      resolve: `gatsby-plugin-manifest`,	
+      options: {	
+        icon: `content/assets/icon.png`,	
+      },	
+    },
+  ]
 }
