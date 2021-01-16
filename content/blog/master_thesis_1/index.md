@@ -2,7 +2,7 @@
 title: Master Thesis - The Start
 date: "2021-01-10"
 description: 'This marks the beginning of the Master Thesis series that I hope to make happen on a weekly schedule. '
-tag: "master"
+tag: "posted"
 ---
 
 For the next semester, I will try to post more frequently. The blog wasn't really getting any attention from me in the fall, but I truly hope that I can have some fun documenting my master thesis writing this semester. 

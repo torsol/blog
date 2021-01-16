@@ -34,7 +34,8 @@ const Bio = () => {
   return (
     <div
       style={{
-        display: `flex`,
+        display: 'flex',
+        alignItems: 'center', 
         marginTop: rhythm(2.5),
       }}
     >
@@ -51,7 +52,9 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
+      <p style={{
+          marginBottom: 0
+        }}>
         Written by <strong>{author.name}</strong>, {author.summary}
         {` `}
         Check me out on 

@@ -1,7 +1,7 @@
 module.exports = {
   //pathPrefix: "/blog",
   siteMetadata: {
-    title: `The Solberg Blog`,
+    title: `The Solberg Project`,
     author: {
       name: `Torstein Solberg`,
       summary: `I am a student that studies geo-informatics in Trondheim. I also write some code in my spare time. `,
@@ -69,7 +69,7 @@ module.exports = {
     {	
       resolve: `gatsby-plugin-manifest`,	
       options: {	
-        icon: `content/assets/icon.png`,	
+        icon: `content/assets/icon.jpg`,	
       },	
     },
   ]

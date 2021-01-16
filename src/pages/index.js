@@ -20,10 +20,10 @@ const Index = ({ data, location }) => {
             <header>
               <h3
                 style={{
-                  marginBottom: rhythm(1 / 10),
+                  marginBottom: 0,
                 }}
               >
-                <Link style={{ boxShadow: `none` , color: `inherit`}} to={node.fields.slug}>
+                <Link className="no-line-link" to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
@@ -53,7 +53,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, filter: {fileAbsolutePath: {}, frontmatter: {tag: {eq: "master"}}}) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, filter: {fileAbsolutePath: {}, frontmatter: {tag: {eq: "posted"}}}) {
       edges {
         node {
           excerpt
